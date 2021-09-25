@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home - Project 1</title>
+	<link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Foundation top bar element partially referenced from https://get.foundation/sites/docs/top-bar.html#0 -->
+    <!-- Foundation sticky referenced from https://get.foundation/sites/docs/sticky.html#sticky-navigation -->
+    <div class="top-bar" data-sticky data-options="marginTop:0;" style="width:100%">
+        <div class="top-bar-left">
+            <ul class="menu">
+                <li><a href="index.html" style="color: black; font-weight: bold;">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="fun.html">Fun</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="grid-container">
+        <div class="grid-y grid-padding-y">
+            <div class="grid-x">
+                <h1 class="cell auto text-center">&#127968; Home</h1>
+            </div>
+        </div>
+        <hr />
+
+        <!-- Not using grid here since it messes with the floating and it's easier this way -->
+        <div>
+            <img class="custom-left" title="Headshot" alt="Headshot" src="images/headshot.jpg" />
+            <h2>Hello!</h2>
+            <p>My name is Brandon Torralba and I am a senior studying Computer Science.</p>
+            <h2 style="font-weight: bold;">What are your plans after graduation?</h2>
+            <p>
+                I accepted a position at Optum as a Technlogy Development Program Associate which 
+                I will start in May 2022. I am really interested in Cyber Security and hope to work on the Enterprise 
+                Information Security team. I will talk about my experience at Optum in the 
+                <a href="projects.html">projects page</a> and in my <a href="resume.html">resume.</a> I also plan to
+                continue my education in the near future and my goal is to get my Master's before I turn 25.
+            </p>
+            <h2 style="font-weight: bold;">What are your hobbies?</h2>
+            <p>
+                I have a lot of hobbies. I talk about them in depth on the
+                <a href="fun.html">fun page</a>.
+            </p>
+        </div>
+    </div>
+
+    </div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/vendor.js"></script>
+    <script src="js/foundation.js"></script>
+    <script type="application/javascript">
+        $(document).foundation();
+    </script>
+</body>
+</html>

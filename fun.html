@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Fun - Project 1</title>
+	<link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Foundation top bar element partially referenced from https://get.foundation/sites/docs/top-bar.html#0 -->
+    <!-- Foundation sticky referenced from https://get.foundation/sites/docs/sticky.html#sticky-navigation -->
+    <div class="top-bar" data-sticky data-options="marginTop:0;" style="width:100%">
+        <div class="top-bar-left">
+            <ul class="menu">
+                <li><a href="index.html" style="color: black; font-weight: bold;">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="fun.html">Fun</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="grid-container">
+        <div class="grid-y grid-padding-y">
+            <div class="grid-x grid-padding-x">
+                <h1 class="cell auto text-center">Fun</h1>
+            </div>
+        </div>
+        <hr />
+
+        <div class="grid-y grid-padding-y">
+            <div class="grid-x grid-padding-x">
+                <h2 class="cell small-12">Interests</h2>
+            </div>
+            <div class="grid-x grid-padding-x">
+                <p class="cell small-12">
+                    I am very interested in personal finance. I think that the 
+                    <a href="https://en.wikipedia.org/wiki/FIRE_movement" target="_blank">FIRE</a>
+                    (Financial Independence, Retire Early) movement is compelling and my goal
+                    is to be financially independent and "retire" by 35.
+                </p>
+            </div>
+            <div class="grid-x grid-padding-x">
+                <p class="cell small-12">
+                    Another one of my interests is personal fitness. I enjoy lifting and also
+                    cardio (when it's nice outside). My goal is to run a marathon someday, but
+                    that won't be for a while.
+                </p>
+            </div>
+        </div>
+        <br />
+
+        <div class="grid-y grid-padding-y">
+            <div class="grid-x grid-padding-x">
+                <h2 class="cell">My Favorite Things</h2>
+            </div>
+
+            <!-- 3 Columns for medium, stacked for small-->
+            <div class="grid-x grid-padding-x hide-for-small-only">
+                <p class="cell small-4 float-left text-center"><strong>Album</strong></p>
+                <p class="cell small-4 text-center"><strong>Food</strong></p>
+                <p class="cell small-4 float-right text-center"><strong>Show</strong></p>
+            </div>
+            <div class="grid-x grid-padding-x hide-for-small-only">
+                <img src="images/eaAlbumCover.jpg" alt="Lil Uzi Vert vs. the World 2" title="Lil Uzi Vert vs. the World 2" class="cell medium-4" />
+                <img src="images/tacos.jpg" alt="Tacos" title="Tacos" class="cell medium-4" />
+                <img src="images/psych.jpg" alt="Psych" title="Psych" class="cell medium-4" />
+            </div>
+
+            <div class="show-for-small-only">
+                <div class="grid-x">
+                    <p class="cell small-12 text-center"><strong>Album</strong></p>
+                </div>
+                <div class="grid-x">
+                    <img src="images/eaAlbumCover.jpg" alt="Lil Uzi Vert vs. the World 2" title="Lil Uzi Vert vs. the World 2" class="cell small-12" />
+                </div>
+                <div class="grid-x">
+                    <p class="cell small-12 text-center"><strong>Food</strong></p>
+                </div>
+                <div class="grid-x">
+                    <img src="images/tacos.jpg" alt="Tacos" title="Tacos" class="cell small-12" />
+                </div>
+                <div class="grid-x">
+                    <p class="cell small-12 text-center"><strong>Show</strong></p>
+                </div>
+                <div class="grid-x">
+                    <img src="images/psych.jpg" alt="Psych" title="Psych" class="cell small-12" />
+    
+                </div>
+            </div>
+        </div>
+        <br />
+
+        <div class="grid-y grid-padding-y">
+            <div class="grid-x grid-padding-x">
+                <h2 class="cell small-12">Clubs</h2>
+            </div>
+            <div class="grid-x grid-padding-x">
+                <p class="cell small-12">I am involved in some clubs on campus:</p>
+            </div>
+            <div class="grid-x grid-padding-x">
+                <ul class="cell small-12">
+                    <li>Sigma Chi (Spring 2020 - Present)</li>
+                    <li>National Academic Quiz Bowl Tournament (Fall 2019 - Present)</li>
+                    <li>Residence Hall Association (Fall 2019 - Spring 2020)</li>
+                    <li>Tutor Mentor (Fall 2019)</li>
+                    <li>Student Diversity and Inclusion Services (Summer 2019 - Present)</li>
+                </ul>
+            </div>
+        </div>
+        <br />
+
+    </div>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/vendor.js"></script>
+    <script src="js/foundation.js"></script>
+    <script type="application/javascript">
+        $(document).foundation();
+    </script>
+</body>
+</html>
