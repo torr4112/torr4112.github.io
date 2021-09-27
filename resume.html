@@ -13,13 +13,34 @@
     <div class="off-canvas-wrapper">
         <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
             <ul class="menu vertical">
-                <li><h2 class="menu-text">Project 1</h2></li>
+                <li>
+                    <h2 class="menu-text float-left" style="width: 80%;">Project 1</h2>
+                    <h2 class="float-right">
+                        <button data-close="offCanvas"><strong>&times;</strong></button>
+                    </h2>
+                </li>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="projects.html">Projects</a>
-                    <ul class="vertical" style="list-style: none;">
+                    <ul style="list-style: none;">
                         <li><a href="projects.html#compliance-portal-section">Compliance Portal</a></li>
                         <li><a href="projects.html#tommie-coin-section">Tommie Coin</a></li>
                         <li><a href="projects.html#isolation-section">Isolation</a></li>
+                    </ul>
+                </li>
+                <li><a href="resume.html">Resume</a>
+                    <ul style="list-style: none;">
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#academic-experience">Academic Experience</a></li>
+                        <li><a href="#work-experience">Work Experience</a></li>
+                        <li><a href="#awards">Awards</a></li>
+                    </ul>
+                </li>
+                <li><a href="fun.html">Fun</a>
+                    <ul style="list-style: none;">
+                        <li><a href="fun.html#interests">Interests</a></li>
+                        <li><a href="fun.html#favorite">Favorites</a></li>
+                        <li><a href="fun.html#clubs">Clubs</a></li>
                     </ul>
                 </li>
             </ul>
@@ -47,7 +68,7 @@
                 </div>
                 <hr />
 
-                <div class="grid-y">
+                <div class="grid-y" id="contact">
                     <div class="grid-x grid-padding-x">
                         <h2 class="cell small-12">Contact Information</h2>
                     </div>
@@ -70,7 +91,7 @@
                 </div>
                 <br />
 
-                <div class="grid-y">
+                <div class="grid-y" id="skills">
                     <div class="grid-x grid-padding-x">
                         <h2 class="cell small-12">Skills</h2>
                     </div>
@@ -105,7 +126,7 @@
                 </div>
                 <br />
 
-                <div class="grid-y">
+                <div class="grid-y" id="work-experience">
                     <div class="grid-x grid-padding-x">
                         <h2 class="cell small-12">Work Experience</h2>
                     </div>
@@ -186,7 +207,7 @@
                 </div>
                 <br />
 
-                <div class="grid-y">
+                <div class="grid-y" id="awards">
                     <div class="grid-x">
                         <h2 class="cell small-12">Awards and Certifications</h2>
                     </div>
